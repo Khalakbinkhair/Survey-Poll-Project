@@ -1,0 +1,56 @@
+.banner{
+	
+}
+.contact_form {
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    margin: 0 auto;
+}
+.charges thead{
+    text-align: center;
+    border-bottom: 1px solid;
+}
+.charges tbody{
+    text-align: center;
+    font-weight: 400;
+}
+.header-content{
+ 
+}
+.carousel-indicators {
+    top: 97%;
+}
+.carousel-control-next, .carousel-control-prev {
+    opacity: 1;
+}
+.carousel-control-next {
+    right: -20%;
+}
+.carousel-control-prev {
+    left: -20%;
+}
+
+@media screen and (max-width: 991px){
+  .contact_form {
+    width: 80%;
+  }
+  .carousel-control-next, .carousel-control-prev {
+       top: 115%;
+    }
+    .carousel-control-next {
+        right: 2%;
+    }
+    .carousel-control-prev {
+        left: 2%;
+    }
+    .carousel-control-next img, .carousel-control-prev img{
+       width: 2rem;
+    }
+    .services{
+        margin-bottom: 5rem;
+    }
+    .services .submit_btn {
+        margin-top: 3rem !important;
+    }
+}
